@@ -32,7 +32,7 @@ public class CarTest {
 
         assertEquals( 1, constraintViolations.size() );
         assertEquals(
-                "may not be null",
+                "널이어서는 안됩니다",
                 constraintViolations.iterator().next().getMessage()
         );
     }
@@ -46,7 +46,7 @@ public class CarTest {
 
         assertEquals( 1, constraintViolations.size() );
         assertEquals(
-                "size must be between 2 and 14",
+                "크기가 2에서 14 사이여야 합니다",
                 constraintViolations.iterator().next().getMessage()
         );
     }
@@ -60,7 +60,7 @@ public class CarTest {
 
         assertEquals( 1, constraintViolations.size() );
         assertEquals(
-                "must be greater than or equal to 2",
+                "2 이상이어야 합니다",
                 constraintViolations.iterator().next().getMessage()
         );
     }

@@ -26,6 +26,4 @@ public class Car {
         this.licensePlate = licencePlate;
         this.seatCount = seatCount;
     }
-
-    // getters and setters ...
 }
